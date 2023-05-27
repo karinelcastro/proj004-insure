@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: inline;
+}
+
+header nav {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+header nav a:nth-child(1){
+    margin-left: 5%;
+    font-size: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+header nav a{
+    font-size: 0.9em;
+    color: #000;
+    text-decoration: none;
+    margin-right: 4%;
+}
+
+header nav a:hover{
+    border: 1px solid #2C2640;
+    padding: 5px 10px;
+}
+
+header nav a:nth-child(1):hover{
+    border: none;
+    padding: 0;
+    cursor: context-menu;
+}
+header nav a:nth-child(2){
+    margin-left: 40%;
+}
+
+/*seção 01*/
+.sec1{
+    background-color: #2C2640;
+    color: #fff;
+    padding-left: 10%;
+    padding-top: 3%;
+}
+.sec1 hr{
+    width: 7%;
+    margin-bottom: 3%;
+}
+
+.sec1 h1{
+    font-size: 3em;
+}
+.sec1 p{
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.sec1 button{
+    margin-bottom: 10%;
+    background: none;
+    color: #fff;
+    border-color: #fff;
+    padding: 1% 5%;
+    cursor: pointer;
+}
+
+.img{
+    padding-left: 60%;
+    margin-top: -28%;
+    padding-bottom: 5%;
+}
+
+.sec2{
+    padding-left: 10% ;
+    
+}
+.sec2 hr{
+    width: 8%;
+    margin-bottom: 1%;
+}
+
+.icons {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo{
+    padding-top: 2%;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.texto{
+    padding-top: 2%;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10%;
+}
+.sec2 h2{
+    padding-bottom: 3%;
+}
+.sec2 div i{
+    font-size: 1.5em;
+    background-color: rgb(139, 150, 160);
+    padding: 3%;
+    border-radius: 50%;
+}
+
+/*seção 03*/
+
+.sec3{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #2C2640;
+    margin-bottom: 5%;
+}
+
+.sec3 h2{
+    padding-left: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 55%;
+    color: #fff;
+}
+
+.sec3 button{
+    margin-top: 35%;
+    background: none;
+    color: #fff;
+    border-color: #fff;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    padding-left: 10%;
+    padding-right: 10%;
+    cursor: pointer;
+}
+
+/*footer*/
+
+footer div{
+    display: flex;
+}
+
+.insure{
+    padding-left: 10%;
+    padding-right: 68%;
+    font-size: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+footer i{
+    padding-left: 1%;
+    color: gray;
+}
+
+footer hr{
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+.menufooter{
+    padding-left: 2%;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5%;
+}
+
+.menufooter p{
+    padding-top: 15%;
+    padding-bottom: 15%;
+    color: #808080;
+    font-size: 0.8em;
+}
+.menufooter a{
+    text-decoration: none;
+    color: #000;
+    font-size: 0.8em;
+}
+
+.menufooter a:hover{
+    text-decoration: underline;
+}
+
+
+
